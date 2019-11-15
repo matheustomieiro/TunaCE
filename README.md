@@ -6,6 +6,7 @@
 
 Programa para controle de imobilizados em empresas escrito em linguagem Lua
 
+
 **Instrucoes:**
 
     - Se o sistema instalado na maquina for **MAC_OS_X** ou **UBUNTU** , há no Makefile
