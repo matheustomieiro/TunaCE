@@ -1,5 +1,7 @@
-# TunaCI
-Programa para controle de imobilizados em empresas escrito em linguagem Lua
-<img src="https://raw.githubusercontent.com/matheustomieiro/TunaCI/master/TunaCI_logo.png"
+# TunaCI <img src="https://raw.githubusercontent.com/matheustomieiro/TunaCI/master/TunaCI_logo.png"
          alt="TunaCI_icon"
-         style="float: left; margin-right: 10px;" />
+         width="200"
+         height="121"
+         />
+
+Programa para controle de imobilizados em empresas escrito em linguagem Lua
