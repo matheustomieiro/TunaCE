@@ -1,9 +1,9 @@
-Imb = {}
+Prd = {}
 
---Funcao que instancia um imobilizado
+--Funcao que instancia um produto
 --args: Nome(string), codigo(integer), fabricante(string), data_de_dispacho()
---return: Imobilizado(object)
-function Imb:new(name, code, mnf, dd)
+--return: Produto(object)
+function Prd:new(name, code, mnf, dd)
 	local newObj = {}
 	setmetatable(newObj,{__index=self})
 	newObj.name = name or "none"
@@ -13,19 +13,19 @@ function Imb:new(name, code, mnf, dd)
 	return newObj
 end
 
---Funcao que seta parametros de um imobilizado
+--Funcao que seta parametros de um produto
 --args: Nome(string), codigo(integer), fabricante(string), data_de_dispacho()
-function Imb:set(name, code, mnf, dd)
+function Prd:set(name, code, mnf, dd)
 	if name then self.name = name end
 	if code then self.code = code end
 	if mnf then self.mnf = mnf end
 	if dd then self.mnt = dd end
 end
 
---Funcao que coleta dados de um imobilizado
+--Funcao que coleta dados de um produto
 --return: Nome(string), codigo(integer), fabricante(string), data_de_dispacho()
-function Imb:get()
+function Prd:get()
 	return self.name, self.code, self.mnf, self.mnt
 end
 
-return Imb
+return Prd
