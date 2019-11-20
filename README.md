@@ -1,5 +1,5 @@
 # TunaCE
-<img src="https://raw.githubusercontent.com/matheustomieiro/TunaCE/master/TunaCE_logo.png"
+<img src=""
      alt="TunaCI_icon"
      width="100"
      height="100" />
