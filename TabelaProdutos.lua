@@ -26,15 +26,14 @@ end
 --Funcao que instancia um conjunto de produtos
 --args: Nome(string), codigo(integer), fabricante(string), data_de_dispacho()
 --return: verdadeiro(true) se adicionado; falso(false) se duplicado
-function Tpr:add(name, code, mnf, dto)
+function Tpr:add(name, code, mnf, qt)
 	for _,n in ipairs(self:search(name)) do
 		if(n.code == code) then
 			return false
 		end
 	end
 	self.count = self.count + 1
-	table.insert(self,self.count,PrdClass:new())
-	table.unpack(self,self.count):set(name, code, mnf, dto)
+	table.insert(self,self.count,PrdClass:new(name, code, mnf, qt))
 	return true
 end
 
