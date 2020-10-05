@@ -4,7 +4,7 @@
      width="100"
      height="100" />
 
-Programa para controle de estoque em empresas escrito em linguagem Lua
+Programa para controle de estoque em empresas escrito em linguagem Lua(https://www.lua.org/)
 
 
 **Instrucoes:**
